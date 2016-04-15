@@ -36,12 +36,12 @@ public class RTSCamera : MonoBehaviour
         // WASDQE Panning
 
         // read key inputs
-        wKeyDown = Input.GetKey(KeyCode.W);
+        //wKeyDown = Input.GetKey(KeyCode.W);
         aKeyDown = Input.GetKey(KeyCode.A);
-        sKeyDown = Input.GetKey(KeyCode.S);
+        //sKeyDown = Input.GetKey(KeyCode.S);
         dKeyDown = Input.GetKey(KeyCode.D);
-        qKeyDown = Input.GetKey(KeyCode.Q);
-        eKeyDown = Input.GetKey(KeyCode.E);
+        qKeyDown = Input.GetKey(KeyCode.S);
+        eKeyDown = Input.GetKey(KeyCode.W);
 
         // determine panTranslation
         panTranslation = Vector3.zero;
